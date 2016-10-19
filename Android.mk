@@ -21,7 +21,7 @@ LOCAL_SRC_FILES := SuperSU/common/.installed_su_daemon
 LOCAL_MODULE_PATH := $(PRODUCT_OUT)/system/etc
 include $(BUILD_PREBUILT)
 
-#init.d script used to launch Superuser daemon
+#init.d script used to launch Superuser daemons
 include $(CLEAR_VARS)
 LOCAL_MODULE := 99SuperSUDaemon
 LOCAL_SRC_FILES := SuperSU/common/99SuperSUDaemon
